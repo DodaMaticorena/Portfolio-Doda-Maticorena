@@ -415,6 +415,24 @@ header.masthead .intro-text {
     background-color: #212529
 }
 
+.img-modal {
+    border: 1px solid #212529;
+}
+
+@media (min-width:411px) {
+    .access-btn {
+        width: 200px;
+    }
+}
+
+.access-btn {
+    margin-bottom: 10px;
+}
+
+.close-btn {
+    margin-top: 50px;
+}
+
 .cv-download-modal {
     height: 30%;
     width: 30%;
