@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    line-height: 1.75
+    line-height: 1.75;
 }
 
 a {
@@ -69,7 +69,8 @@ section h3.section-subheading {
 
 .btn {
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 700
+    font-weight: 700;
+    color: #212529;
 }
 
 .btn-xl {
@@ -87,7 +88,7 @@ section h3.section-subheading {
 .btn-primary:hover {
     background-color: #fec810 !important;
     border-color: #fec810 !important;
-    color: #f3f3f3
+    color: #212529
 }
 
 .btn-primary:active,
@@ -127,7 +128,7 @@ img::-moz-selection {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: #f3f3f3;
+    color: #212529;
     font-weight: 550;
     border: 0;
     background-color: #fed136;
@@ -171,7 +172,7 @@ img::-moz-selection {
         background-color: transparent
     }
     #mainNav .navbar-brand {
-        font-size: 3.5em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         transition: all .3s
     }
@@ -184,7 +185,7 @@ img::-moz-selection {
         background-color: #212529
     }
     #mainNav.navbar-shrink .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 12px 0
     }
 }
@@ -355,7 +356,7 @@ header.masthead .intro-text {
 }
 
 .portfolio-modal .modal-content p {
-    margin-bottom: 30px
+    margin-bottom: 15px
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -414,6 +415,10 @@ header.masthead .intro-text {
     border: 1px solid #212529;
 }
 
+.proto-link, .close-project {
+    color: #bd9513;
+}
+
 @media (min-width:411px) {
     .access-btn {
         width: 200px;
@@ -421,7 +426,7 @@ header.masthead .intro-text {
 }
 
 .access-btn {
-    margin-bottom: 10px;
+    margin: 30px 10px 50px 10px;
 }
 
 .close-btn {
