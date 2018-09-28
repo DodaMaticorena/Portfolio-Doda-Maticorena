@@ -195,6 +195,7 @@ header.masthead {
     color: #f3f3f3;
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
+    background-blend-mode: color-burn;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover
@@ -648,8 +649,8 @@ header.masthead .intro-text {
 }
 
 .img-circle-cv img {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     border: 2.5px solid #fcfcfc
 }
 
