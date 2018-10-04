@@ -74,6 +74,12 @@ section h3.section-subheading {
     section {
         padding: 50px 0
     }
+
+    .img-tech {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
 }
 
 .btn {
@@ -194,6 +200,12 @@ img::-moz-selection {
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.5em;
         padding: 12px 0
+    }
+
+    .img-tech {
+        margin-top: 10px;
+        margin-bottom: 45px;
+        margin-left: 145px;
     }
 }
 
@@ -343,12 +355,6 @@ header.masthead .intro-text {
 @media (min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px
-    }
-
-    .img-tech {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 20px !important;
     }
 }
 
@@ -591,11 +597,6 @@ header.masthead .intro-text {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left
-    }
-    .img-tech {
-        margin-top: 10px;
-        margin-bottom: 45px;
-        margin-left: 145px;
     }
 }
 
