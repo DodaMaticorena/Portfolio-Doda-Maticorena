@@ -56,8 +56,19 @@ section h3.section-subheading {
 
 .soft-skills-img {
   margin-top: 40px;
+  margin-bottom: 40px;
   opacity: 1;
 }
+
+.img-tech {
+    margin-bottom: 45px;
+}
+
+.img-tech-logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 @media (min-width:768px) {
     section {
@@ -125,12 +136,10 @@ img::-moz-selection {
     font-size: 16px;
     right: 0;
     padding: 13px;
-    /* text-transform: uppercase; */
     color: #212529;
     font-weight: 550;
     border: 0;
     background-color: #fed136;
-    /* font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' */
 }
 
 #mainNav .navbar-brand {
@@ -334,6 +343,12 @@ header.masthead .intro-text {
 @media (min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px
+    }
+
+    .img-tech {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px !important;
     }
 }
 
@@ -577,6 +592,11 @@ header.masthead .intro-text {
         padding: 0 30px 20px 20px;
         text-align: left
     }
+    .img-tech {
+        margin-top: 10px;
+        margin-bottom: 45px;
+        margin-left: 145px;
+    }
 }
 
 @media (min-width:992px) {
@@ -619,10 +639,6 @@ header.masthead .intro-text {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
     }
-}
-
-.img-tech {
-    margin-bottom: 20px;
 }
 
 .img-circle {
