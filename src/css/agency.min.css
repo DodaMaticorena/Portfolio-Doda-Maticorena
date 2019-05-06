@@ -61,12 +61,12 @@ section h3.section-subheading {
 }
 
 .img-tech {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .img-tech-logo {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -205,7 +205,7 @@ img::-moz-selection {
     .img-tech {
         margin-top: 10px;
         margin-bottom: 45px;
-        margin-left: 145px;
+        /* margin-left: 145px; */
     }
 }
 
