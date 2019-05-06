@@ -14,7 +14,7 @@ p {
 }
 
 a {
-    color: #fed136
+    color: #f3c82c
 }
 
 a:hover {
@@ -694,7 +694,8 @@ section#contact .card .card-email {
 }
 
 section#contact .card .card-mobile {
-    font-size: 120%;
+    font-size: 95%;
+    color: #5f5f5f
 }
 
 .card-social {
